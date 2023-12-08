@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <ImageView
+        android:id="@+id/backhome"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/blue"
+        android:text="Profile"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/navy"
+        android:text="Syahrul Ghifari Almubaraq"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"/>
+    <ImageView
+        android:layout_width="373dp"
+        android:layout_height="357dp"
+        android:src="@drawable/fitur"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"/>
+    <Button
+        android:id="@+id/backtohome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:text="Back To Home"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="600dp"/>
+
+</FrameLayout>
